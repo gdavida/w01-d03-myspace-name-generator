@@ -27,7 +27,9 @@ end
 
 
 ### 2 take downcase strings and turn into array of letters only
-
+def name_to_array(full_name)
+	full_name.split("")
+end
 
 
 
