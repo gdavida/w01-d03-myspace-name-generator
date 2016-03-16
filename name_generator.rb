@@ -6,7 +6,7 @@ require "pry"
 #
 #		------description------
 #
-#		Take name and turn into one array of letters
+#		Take names and myspace style them
 #
 #		------parameters------
 #
@@ -15,15 +15,39 @@ require "pry"
 #
 #		------what gets returned------
 #
-#		returns array with letters of full name seperated by each letter into a seperate value
+#		xX_DaViDaGaFfNeY_Xx
 #
 #
 
 
-def names_into_array(first, last)
-	name_string = "#{first}#{last}"
-	name_string.split("")
+### 1 take strings and downcase
+def full_name(first,last)
+	"#{first}#{last}".downcase!
 end
 
 
+### 2 take downcase strings and turn into array of letters only
+
+
+
+
+### 3 take array of lowercase and turn into array with array(odd) upcase
+
+
+
+
+
+### 4 unshift xX_ to add of front of array and << (push) Xx_ to add to end of array
+
+
+
+
+### 5 turn back into string
+
+
+### RETURN NEW STRING
+### xX_DaViDaGaFfNeY_Xx
+
 binding.pry
+
+
